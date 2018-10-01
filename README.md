@@ -25,14 +25,14 @@ Create Page Object Model framework to test www.valtech.co.uk homepage
 Exercise #2
 -----------
 Navigate to the www.valtech.co.uk homepage
-    a. Assert that the “Recent Blogs” section is displaying
-    b. Click on the first blog article & then assert that the page title is present
+- a. Assert that the “Recent Blogs” section is displaying
+- b. Click on the first blog article & then assert that the page title is present
 
 Exercise #3
 -----------
-a. Navigate to ABOUT, SERVICES and WORK pages via top navigation and assert that H1 tag in each page is displaying the relevant page name. Ex H1 tag in Services page is displaying as “Services”
+- a. Navigate to ABOUT, SERVICES and WORK pages via top navigation and assert that H1 tag in each page is displaying the relevant page name. Ex H1 tag in Services page is displaying as “Services”
 
-b. Navigate to Contact page (/about/contact-us) and output how many Valtech offices in total
+- b. Navigate to Contact page (/about/contact-us) and output how many Valtech offices in total
 
 Finish up
 ---------
