@@ -20,11 +20,11 @@ Commit each exercise once you've finished with it.
 
 Exercise #1
 -----------
-Create Page Object Model framework to test www.valtech.co.uk homepage
+Create Page Object Model framework for www.valtech.co.uk to do the exercise 2 & 3 
   
 Exercise #2
 -----------
-Navigate to the www.valtech.co.uk homepage
+Navigate to www.valtech.co.uk HOME PAGE
 - a. Assert that the “Recent Blogs” section is displaying
 - b. Click on the first blog article & then assert that the page title is present
 
