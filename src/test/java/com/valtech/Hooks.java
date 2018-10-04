@@ -12,7 +12,6 @@ public class Hooks {
     public void setUp() {
         driverHelper.openBrowser();
         driverHelper.navigateToHome();
-        driverHelper.maxBrowser();
         driverHelper.applyImpWait();
     }
 

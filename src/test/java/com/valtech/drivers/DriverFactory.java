@@ -56,13 +56,8 @@ public class DriverFactory {
         driver.quit();
     }
 
-
     public void navigateToHome() {
         driver.get(url);
-    }
-
-    public void maxBrowser() {
-     //   driver.manage().window().maximize();
     }
 
     public void applyImpWait() {
@@ -72,7 +67,6 @@ public class DriverFactory {
     public void navigateTo(String route){
         driver.navigate().to(url+route);
     }
-
 
     public void sleep(int ms) {
         try {
@@ -84,6 +78,5 @@ public class DriverFactory {
 
     public void explicitWait(WebElement element){
         new WebDriverWait(driver,15).until(ExpectedConditions.visibilityOf(element));
-
     }
 }

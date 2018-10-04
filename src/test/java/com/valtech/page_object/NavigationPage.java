@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class NavigationPage extends DriverFactory {
 
-
     @FindBy(css = "h1")
     private WebElement title;
 

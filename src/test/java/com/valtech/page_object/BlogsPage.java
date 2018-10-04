@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class BlogsPage extends DriverFactory {
 
-
     @FindBy(tagName = "h1")
     private WebElement title;
 

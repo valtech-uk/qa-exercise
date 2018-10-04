@@ -8,5 +8,4 @@ public class Helpers {
         int value = rand.nextInt(size);
         return value;
     }
-
 }

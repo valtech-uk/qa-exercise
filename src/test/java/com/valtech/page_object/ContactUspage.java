@@ -9,7 +9,6 @@ import java.util.List;
 
 public class ContactUspage extends DriverFactory {
 
-
     @FindBy(css = ".office__heading")
     private List<WebElement> countries;
 
@@ -20,5 +19,4 @@ public class ContactUspage extends DriverFactory {
         }
         System.out.println("List of Offices : " + countriesList);
     }
-
 }
