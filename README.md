@@ -37,3 +37,30 @@ Exercise #3
 Finish up
 ---------
 Once you're finished, commit & push your changes, send us a link to your fork.
+
+Framework Summary
+---------
+
+# Compatibility
+- Before you run test, make sure your firefox version to be >50 as am using selenium 3
+
+# How to run
+G0 to root directory
+  - COMMAND : mvn clean test
+  - go to src/test/java/com/valtech and run RunCukesTest.java
+
+# Dependencies Used
+- Junit
+- Cucumber  (selected framework)
+- Webdriver manager  (to download all browser drivers )
+- Selenium  (to interact with UI)
+- Hamcrest (To assert)
+- Cucumber-picocontaine (for dependency injections )
+
+# Highlights
+- Used page object model
+- Used page factory
+- Used Dependency injection concept (piko-container form Cucumber)
+
+# Improvements
+  - Will be nice to take screen shot on every test failure.
