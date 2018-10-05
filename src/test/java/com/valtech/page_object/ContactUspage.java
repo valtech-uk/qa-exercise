@@ -17,6 +17,6 @@ public class ContactUspage extends DriverFactory {
         for (WebElement countries : countries) {
             countriesList.add(countries.getText());
         }
-        System.out.println("List of Offices : " + countriesList);
+        System.out.println("List of Offices : " + countriesList.size());
     }
 }

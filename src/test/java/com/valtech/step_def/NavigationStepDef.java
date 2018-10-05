@@ -57,7 +57,6 @@ public class NavigationStepDef {
     @Then("^I should navigate to \"([^\"]*)\" page$")
     public void iShouldNavigateToPage(String expected) {
         assertThat("Expected and actual not matched. ", navigationPage.getPageTitle(), is(equalToIgnoringCase(expected)));
-
     }
 
     @And("^I navigate to \"([^\"]*)\"$")
@@ -65,8 +64,8 @@ public class NavigationStepDef {
         homePage.navigateTo(page);
     }
 
-    @And("^I print all the countries names$")
-    public void iPrintAllTheCountriesNames() {
+    @And("^I print total number of countries$")
+    public void numberOfCountries() {
         contactUspage.printAllCountries();
     }
 }

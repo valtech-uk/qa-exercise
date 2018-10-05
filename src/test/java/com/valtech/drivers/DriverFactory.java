@@ -60,6 +60,8 @@ public class DriverFactory {
         driver.get(url);
     }
 
+    public void maximize(){ driver.manage().window().maximize(); }
+
     public void applyImpWait() {
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
