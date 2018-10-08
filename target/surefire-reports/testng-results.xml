@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="valtech.tarung.AllTestCases" duration-ms="79320" started-at="2018-10-05T23:29:10Z" finished-at="2018-10-05T23:30:29Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="79320" started-at="2018-10-05T23:29:10Z" finished-at="2018-10-05T23:30:29Z">
+      <class name="valtech.tarung.AllTestCases">
+        <test-method status="PASS" signature="start()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="start" is-config="true" duration-ms="8166" started-at="2018-10-05T23:29:10Z" finished-at="2018-10-05T23:29:18Z">
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="assertRecentBlogs()[pri:1, instance:valtech.tarung.AllTestCases@668bc3d5]" name="assertRecentBlogs" duration-ms="3341" started-at="2018-10-05T23:29:18Z" finished-at="2018-10-05T23:29:22Z">
+        </test-method> <!-- assertRecentBlogs -->
+        <test-method status="PASS" signature="close()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="close" is-config="true" duration-ms="1328" started-at="2018-10-05T23:29:22Z" finished-at="2018-10-05T23:29:23Z">
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="start()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="start" is-config="true" duration-ms="11113" started-at="2018-10-05T23:29:23Z" finished-at="2018-10-05T23:29:34Z">
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="assertFirstBlog()[pri:2, instance:valtech.tarung.AllTestCases@668bc3d5]" name="assertFirstBlog" duration-ms="5616" started-at="2018-10-05T23:29:34Z" finished-at="2018-10-05T23:29:40Z">
+        </test-method> <!-- assertFirstBlog -->
+        <test-method status="PASS" signature="close()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="close" is-config="true" duration-ms="1187" started-at="2018-10-05T23:29:40Z" finished-at="2018-10-05T23:29:41Z">
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="start()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="start" is-config="true" duration-ms="6744" started-at="2018-10-05T23:29:41Z" finished-at="2018-10-05T23:29:48Z">
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="assertAbout()[pri:3, instance:valtech.tarung.AllTestCases@668bc3d5]" name="assertAbout" duration-ms="1809" started-at="2018-10-05T23:29:48Z" finished-at="2018-10-05T23:29:49Z">
+        </test-method> <!-- assertAbout -->
+        <test-method status="PASS" signature="close()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="close" is-config="true" duration-ms="1112" started-at="2018-10-05T23:29:49Z" finished-at="2018-10-05T23:29:51Z">
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="start()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="start" is-config="true" duration-ms="7644" started-at="2018-10-05T23:29:51Z" finished-at="2018-10-05T23:29:58Z">
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="assertWork()[pri:4, instance:valtech.tarung.AllTestCases@668bc3d5]" name="assertWork" duration-ms="7020" started-at="2018-10-05T23:29:58Z" finished-at="2018-10-05T23:30:05Z">
+        </test-method> <!-- assertWork -->
+        <test-method status="PASS" signature="close()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="close" is-config="true" duration-ms="1108" started-at="2018-10-05T23:30:05Z" finished-at="2018-10-05T23:30:06Z">
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="start()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="start" is-config="true" duration-ms="7137" started-at="2018-10-05T23:30:06Z" finished-at="2018-10-05T23:30:13Z">
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="assertservices()[pri:5, instance:valtech.tarung.AllTestCases@668bc3d5]" name="assertservices" duration-ms="1987" started-at="2018-10-05T23:30:13Z" finished-at="2018-10-05T23:30:15Z">
+        </test-method> <!-- assertservices -->
+        <test-method status="PASS" signature="close()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="close" is-config="true" duration-ms="1125" started-at="2018-10-05T23:30:15Z" finished-at="2018-10-05T23:30:17Z">
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="start()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="start" is-config="true" duration-ms="6695" started-at="2018-10-05T23:30:17Z" finished-at="2018-10-05T23:30:23Z">
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="totalOffices()[pri:6, instance:valtech.tarung.AllTestCases@668bc3d5]" name="totalOffices" duration-ms="5011" started-at="2018-10-05T23:30:23Z" finished-at="2018-10-05T23:30:28Z">
+        </test-method> <!-- totalOffices -->
+        <test-method status="PASS" signature="close()[pri:0, instance:valtech.tarung.AllTestCases@668bc3d5]" name="close" is-config="true" duration-ms="1152" started-at="2018-10-05T23:30:28Z" finished-at="2018-10-05T23:30:29Z">
+        </test-method> <!-- close -->
+      </class> <!-- valtech.tarung.AllTestCases -->
+    </test> <!-- Command line test -->
+  </suite> <!-- valtech.tarung.AllTestCases -->
+</testng-results>
