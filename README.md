@@ -34,6 +34,10 @@ Exercise #3
 
 - b. Navigate to Contact page (/about/contact-us) and output how many Valtech offices in total
 
+Exercise #4
+-----------
+README file - Include instructions on how to set up and execute your tests on a clean install of Windows/MacOS
+
 Finish up
 ---------
 Once you're finished, commit & push your changes, send us a link to your fork.
