@@ -20,23 +20,26 @@ Commit each exercise once you've finished with it.
 
 Exercise #1
 -----------
-Create Page Object Model framework for www.valtech.co.uk to do the exercise 2 & 3 
+- Create Page Object Model framework for www.valtech.co.uk to do the exercise 2 & 3 
+- Driver manager pattern. We should be able to run the test framework against Chrome, Firefox and Microsoft Edge browsers
   
 Exercise #2
 -----------
 Navigate to www.valtech.co.uk HOME PAGE
-- a. Assert that the “Recent Blogs” section is displaying
-- b. Click on the first blog article & then assert that the page title is present
+- Assert that the “Partners” section is displaying
+- Click on "Our Partners"button on the Partners page  
+- Capture and Print a list of all the partners across industries in the test report or to the console 
 
 Exercise #3
 -----------
-- a. Navigate to ABOUT, SERVICES and WORK pages via top navigation and assert that H1 tag in each page is displaying the relevant page name. Ex H1 tag in Services page is displaying as “Services”
-
-- b. Navigate to Contact page (/about/contact-us) and output how many Valtech offices in total
+- a. Navigate to Uk Public sector 
+- b. Verify and print a list of all public sector customers in the test report or to the console 
+- Click on Talk to Us and verify if it navigates to Contact us page 
 
 Exercise #4
 -----------
 README file - Include instructions on how to set up and execute your tests on a clean install of Windows/MacOS
+Bonus point: Test execution on Docker instances 
 
 Finish up
 ---------
