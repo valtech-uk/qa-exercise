@@ -20,7 +20,7 @@ public class PartnersSectionSteps extends ScenarioSteps {
     public void opens_home_page() {
         getDriver().manage().window().maximize();
         homePage.open();
-        homePage.waitForMenuIsDisplayed();
+        homePage.cookieAcceptBtn.click();
     }
 
     @Step
@@ -37,7 +37,7 @@ public class PartnersSectionSteps extends ScenarioSteps {
 
     @Step
     public void capture_and_print_a_list_of_all_the_partners_across_industries() {
-        partnersPage.partnersLinksList.forEach(it -> it.getAttribute("href"));
+        partnersPage.partnersLinksList.forEach(it -> System.out.println(it.getAttribute("href")));
         assertThat(partnersPage.partnersLinksList).isNotEmpty();
     }
 

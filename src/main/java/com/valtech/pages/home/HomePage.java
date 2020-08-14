@@ -15,7 +15,6 @@ public class HomePage extends PageObject {
     @FindBy(xpath = "//button[contains(@class, 'location-select')]")
     public WebElement locationBtn;
 
-    public void waitForMenuIsDisplayed() {
-        waitFor(ExpectedConditions.elementToBeClickable(menuBtn));
-    }
+    @FindBy(xpath = "//div[@id='cookiebanner']//a[contains(text(),'Accept cookies')]")
+    public WebElement cookieAcceptBtn;
 }

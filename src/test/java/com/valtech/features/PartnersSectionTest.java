@@ -11,14 +11,14 @@ import org.openqa.selenium.WebDriver;
 @RunWith(SerenityRunner.class)
 public class PartnersSectionTest {
 
-    @Managed(options = "maxi")
+    @Managed
     WebDriver driver;
 
     @Steps
     PartnersSectionSteps partnersSectionSteps;
 
     @Test
-    public void testForExerciseTwo() {
+    public void partnersListVerificationTest() {
         partnersSectionSteps.opens_home_page();
         partnersSectionSteps.assert_that_the_partners_section_is_displaying();
         partnersSectionSteps.click_on_our_partners_button_on_the_partners_page();
