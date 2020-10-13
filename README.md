@@ -9,7 +9,7 @@ Overview
 We are interested in your approach to the following problems.
 
 Please do the test in Selenium with a proper Object Oriented Programming
-language using automated testing best practices. This is expected to
+language using automated testing best practices and using BDD gerkin language to define the acceptance tests. This is expected to
 take no more than 1 hour. 
 
 Getting started
